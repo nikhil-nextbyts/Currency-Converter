@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    height: 55vh;
+    width: 60vh;
+    background-color: lightyellow;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form select,
+button,
+input {
+  border: 2px solid darkgray;;
+  outline: none;
+  border-radius: 0.4rem;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.8rem 0 0.8rem 0;
+    padding: 1rem;
+    /*border-top: 2px solid black;
+    border-bottom: 2px solid black;*/
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.from-under {
+    width: 23vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-under {
+    width: 23vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    height: 1.5rem;
+    background-color: purple;
+    color: white;
+}
+
+i {
+    margin: 0.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease; 
+    transform: rotate(90deg); 
+}
+
+img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.enter-amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-bottom: 0.4rem;
+}
+
+input {
+    padding-left: 0.4rem;
+    height: 1.5rem;
+}
