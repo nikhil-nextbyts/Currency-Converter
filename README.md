@@ -1,12 +1,38 @@
-# React + Vite
+# Project Title: [Conrrency Converter]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+That's convert courrency using real time exchange rates.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A more detailed paragraph explaining the purpose of the application, its key features, and the technologies you used to build it (e.g., React, Vite, CSS Modules, etc.).
 
-## Expanding the ESLint configuration
+## Getting Started
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation & Running
+
+1.  Clone the repository:
+    ```sh
+    git clone [your-repo-url]
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd [your-project-directory]
+    ```
+3.  Install the dependencies:
+    ```sh
+    npm install
+    ```
+4.  Start the development server:
+    ```sh
+    npm run dev
+    ```
+The application will be running at `http://localhost:5173` (or a similar address).
+
+## Live Demo
+
+(Optional) If you have deployed your project, add a link to the live site here!
